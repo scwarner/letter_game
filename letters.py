@@ -53,6 +53,7 @@ def get_guess(bad_guesses, good_guesses):
         else:
             return guess    
 
+done = ''
 def play(done):
     clear()
     secret_word = random.choice(words)
